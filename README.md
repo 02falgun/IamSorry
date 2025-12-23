@@ -61,6 +61,3 @@ At the moment no environment variables are required. If you later add APIs, crea
 
 ## License
 Released under the MIT License.
-
-## License
-Released under the MIT License.
