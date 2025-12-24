@@ -18,7 +18,7 @@ const hobbies = [
   },
   {
     name: 'Anime',
-    image: 'https://www.reddit.com/r/animequestions/comments/1lblcg1/show_me_your_best_anime_wallpaper/',
+    image: 'https://t4.ftcdn.net/jpg/12/19/77/03/360_F_1219770376_JXDXIZ8VjoUV5CPGtI46Lxc2FD8QG9h5.jpg',
     icon: Tv,
     category: 'Entertainment'
   },
