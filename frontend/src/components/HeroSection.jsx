@@ -59,7 +59,7 @@ export default function HeroSection() {
           {/* Main Heading */}
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-primary-glow via-primary to-secondary bg-clip-text text-transparent">
-              I'm Sorry
+              Hello 🍇, A small thing from my side
             </span>
           </h1>
 
@@ -67,7 +67,7 @@ export default function HeroSection() {
           <p className="text-lg sm:text-xl lg:text-2xl text-primary-foreground/90 mb-12 max-w-3xl mx-auto leading-relaxed">
             I know I let you down, and I'm truly sorry. 
             <br className="hidden sm:block" />
-            Your friendship means the world to me.
+            Your are special.
           </p>
 
           {/* CTA Button */}
