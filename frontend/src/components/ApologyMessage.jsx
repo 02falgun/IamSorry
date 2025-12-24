@@ -52,35 +52,78 @@ export default function ApologyMessage() {
               {/* Main Message */}
               <div className="space-y-6 text-foreground/90 text-base sm:text-lg leading-relaxed">
                 <p className="animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
-                  I know I messed up, and I can't stop thinking about how I let you down. 
-                  The moment I realized what I'd done, I felt terrible. You're such an amazing 
-                  friend, and you deserved better from me. I'm truly, deeply sorry.
+                  I know I've let you down.
+                  I failed to honor your peace, your space, and your boundaries, and for that, I am deeply sorry.
+                  You deserve someone who understands you fully, and I did not.
+                  But please know, Ive reflected, and Ive grown.
+                  Im a better man now, one who will always respect your heart, your silence, and your boundaries.
+                  My love for you is not about possession, its about respecting you, in all your beautiful, strong grace.
+                  Hope you understand, I know you're emotionally strong and whatsoever decision you make in this, I am ready to accept that.
                 </p>
 
                 <p className="animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
-                  Your passion for collecting gadgets has always amazed me. The way your eyes 
-                  light up when you find a new piece of tech, the excitement you share when 
-                  talking about the latest features – it's one of the many things I admire about you. 
-                  You put so much thought into everything you do, and I should have been more 
-                  thoughtful too.
+                  I deeply admire the strength and stability you carry within your heart.
+                  Your emotional balance is something rare, like a calm river that flows, no matter the storm around it.
+                  The way you protect your boundaries, your personal space, its a testament to your wisdom, your understanding of your worth.
+                  You dont shrink yourself for anyone or anything, and that strength to stand tall in your truth is beautiful beyond words.
+                  Your heart, so pure, is filled with goodness and care, always thinking of the impact on others even before a mistake is made.
+                  Its not just your strength, but the gentle way you hold your heart, unguarded yet protected, open yet careful, that makes you the incredible person you are.
+
+                  The way you say you don't want a realtionship or something beacause you may cheat,
+                  one who cheats never will admit that she or he will cheat, you kind soul, kind heart knows what Love is and how deeply it binds within us,
+                  You know exactly the true meaning of Love, you care that you may cheat but I know, this boy who Knows the Draksha who she shows to only herself,
+                  Children wave at you, you like them, I still remember last winter vacation while coming home, a kid was sitting beside us, no one from us but YOU went to him,
+                  shared him your cake, talked with him, he shared his bday yapping with you, Girl you don't need to chase Love you are Love.
+                  You think of the guilt you could make before it's started, I mean heart so kind that accepts the flaws even before it's made.
+                  If I continue writing about ya, most probably the frontend would crash.
                 </p>
 
                 <p className="animate-fadeInUp" style={{ animationDelay: '0.6s' }}>
-                  I know that your favorite color is lavender – that beautiful, calming shade 
+                 I know that your favorite color is lavender that beautiful, calming shade 
                   that suits your personality so perfectly. That's why I made this page in those 
                   colors, hoping it might bring you even a small moment of peace. You've always 
                   had such great taste, and I want you to know that I see you, I appreciate you, 
                   and I value our friendship more than you know.
+
+                  Trying to keep the letter raw, Below is the poem I wrote for you, hope you like it 
+
+                  IT goes like:
+                  "She does not chase what blooms
+                   she is the bloom.
+                   A soul so kind,
+                   even guilt visits her before the mistake is made.
+
+                   She walks with silence
+                   like its a song she wrote
+                   guarded, yes,
+                   but only to protect the world inside her.
+
+                   She loves her shadows,
+                   her threads, her lens,
+                   her quiet dramas
+                   that make noise only in her heart.
+
+                   They call it solitude.
+                   I call it royalty.
+
+                   She fears hurting love
+                   so she chooses not to hold it.
+                   But oh, if only she knew…
+                   how deeply love longs to hold her."
+              
+
+          
                 </p>
 
                 <p className="animate-fadeInUp" style={{ animationDelay: '0.8s' }}>
                   I promise to do better. I promise to be a more thoughtful, more considerate, 
-                  and more reliable friend. Your friendship means the world to me, and I'll work 
+                  and more reliable friend. Your friendship means a lot to me, and I'll work 
                   hard to earn back your trust if you'll give me the chance.
                 </p>
 
                 <p className="animate-fadeInUp font-semibold text-primary" style={{ animationDelay: '1s' }}>
-                  Please forgive me. Your friendship means more to me than words can express.
+                  Draksha I do not expect that you will like this, you will understand the feelings, I will just Hope.
+                  Afterall you only said me once "There is nth wrong in keeping the HOPE alive".
                 </p>
               </div>
 
