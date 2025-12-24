@@ -1,48 +1,36 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
-import { Cpu, Headphones, Camera, Laptop, Smartphone, Watch } from 'lucide-react';
+import { Camera, Scissors, Tv, Film } from 'lucide-react';
 
-const gadgets = [
+const hobbies = [
   {
-    name: 'Premium Headphones',
-    image: 'https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxnYWRnZXRzfGVufDB8fHx8MTc2NjMzMzEyNXww&ixlib=rb-4.1.0&q=85',
-    icon: Headphones,
-    category: 'Audio'
-  },
-  {
-    name: 'Workspace Setup',
-    image: 'https://images.unsplash.com/photo-1595303526913-c7037797ebe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwyfHxnYWRnZXRzfGVufDB8fHx8MTc2NjMzMzEyNXww&ixlib=rb-4.1.0&q=85',
-    icon: Laptop,
-    category: 'Computing'
-  },
-  {
-    name: 'Gaming Collection',
-    image: 'https://images.unsplash.com/photo-1615655406736-b37c4fabf923?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxnYWRnZXRzfGVufDB8fHx8MTc2NjMzMzEyNXww&ixlib=rb-4.1.0&q=85',
-    icon: Smartphone,
-    category: 'Gaming'
-  },
-  {
-    name: 'Tech Essentials',
-    image: 'https://images.unsplash.com/photo-1468495244123-6c6c332eeece?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHw0fHxnYWRnZXRzfGVufDB8fHx8MTc2NjMzMzEyNXww&ixlib=rb-4.1.0&q=85',
+    name: 'Photography',
+    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee',
     icon: Camera,
-    category: 'Photography'
+    category: 'Creative'
   },
   {
-    name: 'Electronics Hub',
-    image: 'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg',
-    icon: Cpu,
-    category: 'Electronics'
+    name: 'Knitting',
+    image: 'https://images.unsplash.com/photo-1604881991720-f91add269bed',
+    icon: Scissors,
+    category: 'Handcraft'
   },
   {
-    name: 'Modern Tech',
-    image: 'https://images.pexels.com/photos/8004014/pexels-photo-8004014.jpeg',
-    icon: Watch,
-    category: 'Wearables'
+    name: 'Anime',
+    image: 'https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea',
+    icon: Tv,
+    category: 'Entertainment'
+  },
+  {
+    name: 'K-Dramas',
+    image: 'https://images.unsplash.com/photo-1581905764498-f1b60bae941a',
+    icon: Film,
+    category: 'Entertainment'
   }
 ];
 
-export default function GadgetGallery() {
+export default function HobbyGallery() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
 
@@ -57,14 +45,10 @@ export default function GadgetGallery() {
       { threshold: 0.1 }
     );
 
-    if (currentRef) {
-      observer.observe(currentRef);
-    }
+    if (currentRef) observer.observe(currentRef);
 
     return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
-      }
+      if (currentRef) observer.unobserve(currentRef);
     };
   }, []);
 
@@ -74,17 +58,17 @@ export default function GadgetGallery() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Just Like Your <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Gadget Collection</span>
+            Things You <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Love</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Each one carefully chosen, each one special – just like every moment with you
+            Moments, stories, and creativity — the little joys that define you
           </p>
         </div>
 
-        {/* Gadget Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {gadgets.map((gadget, index) => {
-            const Icon = gadget.icon;
+        {/* Hobby Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {hobbies.map((hobby, index) => {
+            const Icon = hobby.icon;
             return (
               <Card
                 key={index}
@@ -95,23 +79,24 @@ export default function GadgetGallery() {
               >
                 <div className="relative h-64 overflow-hidden">
                   <img
-                    src={gadget.image}
-                    alt={gadget.name}
+                    src={hobby.image}
+                    alt={hobby.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
-                  
+
                   {/* Icon overlay */}
                   <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm p-3 rounded-full shadow-lg">
                     <Icon className="w-6 h-6 text-primary-foreground" />
                   </div>
                 </div>
+
                 <CardContent className="p-6">
                   <Badge variant="secondary" className="mb-3">
-                    {gadget.category}
+                    {hobby.category}
                   </Badge>
                   <h3 className="font-display text-xl font-semibold text-foreground">
-                    {gadget.name}
+                    {hobby.name}
                   </h3>
                 </CardContent>
               </Card>
