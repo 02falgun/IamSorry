@@ -62,19 +62,19 @@ export default function MemoryCard() {
                 <ul className="space-y-4 text-lg">
                   <li className="flex items-start gap-3">
                     <Heart className="w-6 h-6 flex-shrink-0 mt-1" fill="currentColor" />
-                    <span>To not bring back the topics you dont like discussion upon</span>
+                    <span>No matter how life changes, I’ll always protect the comfort and trust we share</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Heart className="w-6 h-6 flex-shrink-0 mt-1" fill="currentColor" />
-                    <span>To value,respect your boundaries, your personal space and your decisions</span>
+                    <span>I promise to listen to your silence too, not just your words</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Heart className="w-6 h-6 flex-shrink-0 mt-1" fill="currentColor" />
-                    <span>To be more thoughtful and considerate and mature</span>
+                    <span>Even on the days we drift apart, you’ll never have to doubt your place in my life</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Heart className="w-6 h-6 flex-shrink-0 mt-1" fill="currentColor" />
-                    <span>To never piss you off again</span>
+                    <span>I’ll never become the reason your heart feels heavy; I’ll always try to be your safe place</span>
                   </li>
                 </ul>
               </div>
