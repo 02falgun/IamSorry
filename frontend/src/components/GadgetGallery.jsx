@@ -3,32 +3,32 @@ import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 import { Camera, Scissors, Tv, Film } from 'lucide-react';
 
-// const hobbies = [
-//   {
-//     name: 'Photography',
-//     image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee',
-//     icon: Camera,
-//     category: 'Creative'
-//   },
-//   {
-//     name: 'Knitting',
-//     image: 'https://images.unsplash.com/photo-1604881991720-f91add269bed',
-//     icon: Scissors,
-//     category: 'Handcraft'
-//   },
-//   {
-//     name: 'Anime',
-//     image: 'https://t4.ftcdn.net/jpg/12/19/77/03/360_F_1219770376_JXDXIZ8VjoUV5CPGtI46Lxc2FD8QG9h5.jpg',
-//     icon: Tv,
-//     category: 'Entertainment'
-//   },
-//   {
-//     name: 'K-Dramas',
-//     image: 'https://images.unsplash.com/photo-1581905764498-f1b60bae941a',
-//     icon: Film,
-//     category: 'Entertainment'
-//   }
-// ];
+const hobbies = [
+  {
+    name: 'Photography',
+    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee',
+    icon: Camera,
+    category: 'Creative'
+  },
+  {
+    name: 'Knitting',
+    image: 'https://images.unsplash.com/photo-1604881991720-f91add269bed',
+    icon: Scissors,
+    category: 'Handcraft'
+  },
+  {
+    name: 'Anime',
+    image: 'https://t4.ftcdn.net/jpg/12/19/77/03/360_F_1219770376_JXDXIZ8VjoUV5CPGtI46Lxc2FD8QG9h5.jpg',
+    icon: Tv,
+    category: 'Entertainment'
+  },
+  {
+    name: 'K-Dramas',
+    image: 'https://images.unsplash.com/photo-1581905764498-f1b60bae941a',
+    icon: Film,
+    category: 'Entertainment'
+  }
+];
 
 export default function HobbyGallery() {
   const [isVisible, setIsVisible] = useState(false);
